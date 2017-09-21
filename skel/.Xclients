@@ -1,0 +1,4 @@
+#!/bin/bash
+export LANG=C
+ibus-daemon -d
+exec /usr/local/bin/stumpwm
